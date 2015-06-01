@@ -4,6 +4,7 @@ set mouse=a
 set virtualedit=onemore     " Allow for cursor beyond last character
 
 " Presentation preferences
+set lazyredraw              " Skip redraws which will cause a delay
 set wrap                    " Wrap lines
 
 " Buffers/files
