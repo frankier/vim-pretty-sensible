@@ -32,7 +32,7 @@ function! InitializeDirectories()
   \}
 
   for [dirname, settingname] in items(dir_list)
-    let directory = $HOME . '/.nvim/' . dirname . '/'
+    let directory = $HOME . '/.config/nvim/' . dirname . '/'
     if exists("*mkdir")
       if !isdirectory(directory)
         call mkdir(directory)
